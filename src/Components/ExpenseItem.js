@@ -1,13 +1,15 @@
+import './ExpenseItem'
+
 function ExpenseItem(){
     return (
-        <div>
-            <div>1st january</div>
+        <div className="expense-item">
+            <div className="expense-item__description">1st january 2023</div>
             <div>
-                <h2>Birthday</h2>
-                <div>23rd</div>
+                <h2>Car insurance</h2>
+                <div className="expense-item__price">42300</div>
             </div>
         </div>
     );
 }
 
-export default ExpenseItem;
+export default ExpenseItem; 
