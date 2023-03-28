@@ -1,4 +1,5 @@
 import "./ExpenseItem.css";
+import expenseDate from "./expenseDate";
 
 function ExpenseItem(props) {
 const month = props.date.toLocaleString('en-US', {month:'long'});
@@ -8,11 +9,7 @@ const year = props.date.getFullYear();
   return (
     <div className="expense-item">
 
-      <div className="expense-item__description">
-        <div>{month}</div>
-        <div>{year}</div>
-        <div>{day}</div>
-      </div>
+      <expenseDate date={props.date}></expenseDate>
       
       <div>
         <h2> {props.title} </h2>
