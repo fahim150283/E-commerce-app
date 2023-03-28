@@ -11,7 +11,7 @@ function App() {
     {
       id: 'e2',
       date: new Date(2003, 4, 8),
-      Title: 'Healt Insurance',
+      Title: 'Health Insurance',
       Amount: 58,
     },
     {
@@ -34,29 +34,29 @@ function App() {
       <h2>Let's get started!</h2>
 
       <ExpenseItem
-        title={expenses[0].title}
-        amount={expenses[0].amount}
+        title={expenses[0].Title}
+        amount={expenses[0].Amount}
         date={expenses[0].date}
       >
       
       </ExpenseItem>
       <ExpenseItem
-        title={expenses[1].title}
-        amount={expenses[1].amount}
+        title={expenses[1].Title}
+        amount={expenses[1].Amount}
         date={expenses[1].date}
       >
         
       </ExpenseItem>
       <ExpenseItem
-        title={expenses[2].title}
-        amount={expenses[2].amount}
+        title={expenses[2].Title}
+        amount={expenses[2].Amount}
         date={expenses[2].date}
       >
     
       </ExpenseItem>
       <ExpenseItem
-        title={expenses[3].title}
-        amount={expenses[3].amount}
+        title={expenses[3].Title}
+        amount={expenses[3].Amount}
         date={expenses[3].date}
       >
         
