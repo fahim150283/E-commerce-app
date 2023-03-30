@@ -3,35 +3,50 @@ import ExpenseItem from "./Components/ExpenseItem";
 function App() {
   const expenses = [
     {
-      id: 'e1',
-      date: new Date(2023, 5, 28),
-      title: 'Car Insurance',
-      amount: 587,
-    },
-    {
-      id: 'e2',
-      date: new Date(2003, 4, 8),
-      title: 'Health Insurance',
-      amount: 58,
-    },
-    {
-      id: 'e3',
+      id: 'e4',
       date: new Date(1923, 8, 21),
-      title: 'tanks',
+      title: 'Tanks',
       amount: 58787,
     },
     {
-      id: 'e4',
+      id: 'e3',
+      date: new Date(2003, 3, 8),
+      title: 'Armor',
+      amount: 528,
+    },
+    {
+      id: 'e2',
+      date: new Date(2022, 4, 2),
+      title: 'Missile Launcher',
+      amount: 5876,
+    },
+    {
+      id: 'e1',
+      date: new Date(2023, 5, 28),
+      title: 'war Robots',
+      amount: 58750,
+    },
+    
+    
+    
+    {
+      id: 'e5',
       date: new Date(2069, 9, 3),
       title: 'House on the Mars',
       amount: 96587,
     },
+    {
+      id: 'e6',
+      date: new Date(2099, 11, 30),
+      title: 'Planet War',
+      amount: 1996587,
+    }
   ];
 
   
   return (
     <div>
-      <h2>Let's get started!</h2>
+      <h2>Let's get started with the MasterPlan </h2>
 
       <ExpenseItem
         title={expenses[0].title}
@@ -58,6 +73,20 @@ function App() {
         title={expenses[3].title}
         amount={expenses[3].amount}
         date={expenses[3].date}
+      >
+        
+      </ExpenseItem>
+      <ExpenseItem
+        title={expenses[4].title}
+        amount={expenses[4].amount}
+        date={expenses[4].date}
+      >
+        
+      </ExpenseItem>
+      <ExpenseItem
+        title={expenses[5].title}
+        amount={expenses[5].amount}
+        date={expenses[5].date}
       >
         
       </ExpenseItem>
