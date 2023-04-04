@@ -1,7 +1,7 @@
 import "./Card.css";
 
 function Card(props) {
-  const classes = ["card" , props.className].join(" ");
+  var classes = ["card" , props.className].join(" ");
   return <dev className={classes}> {props.children} </dev>;
 }
 
