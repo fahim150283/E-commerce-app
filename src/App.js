@@ -10,28 +10,28 @@ function App() {
     {
       date: new Date(2003, 3, 8),
       title: "Armor",
-      amount: 528,
+      amount: 52438,
     },
     {
       date: new Date(2022, 4, 2),
       title: "Missile Launcher",
-      amount: 5876,
+      amount: 15876,
     },
     {
       date: new Date(2023, 5, 28),
       title: "war Robots",
-      amount: 58750,
+      amount: 658750,
     },
 
     {
       date: new Date(2069, 9, 3),
       title: "House on the Mars",
-      amount: 96587,
+      amount: 396587,
     },
     {
       date: new Date(2099, 11, 30),
-      title: "Planet War",
-      amount: 1996587,
+      title: "Planetary Devastation",
+      amount: 21996587,
     },
   ];
 
