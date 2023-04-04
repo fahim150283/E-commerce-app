@@ -4,7 +4,7 @@
     align-items: center;
     padding: 0.5rem;
     margin: 1rem 0;
-    background-color: #4b4b4b;
+    background-color: #5c4727;
   }
   
   .expense-item__description {
@@ -18,11 +18,11 @@
   }
   
   .expense-item h2 {
-    color: #3a3a3a;
+    color: #473100;
     font-size: 1rem;
     flex: 1;
     margin: 0 1rem;
-    color: white;
+    color: rgb(228, 175, 0);
   }
   
   .expense-item__price {
