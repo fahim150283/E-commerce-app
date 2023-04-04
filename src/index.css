@@ -13,6 +13,16 @@ body {
   background-color: #44361b;
 }
 
-h2{
-  color: #d1a348;
+#titleImg{
+  width: 15%;
+  height: 15%;
+  align-items: center;
 }
+
+#mainTilte{
+  color: #d1a348;
+  font-weight: bold;
+  text-shadow: 2px 2px 4px #666;
+  text-align: center;
+}
+
