@@ -37,16 +37,17 @@ function App() {
 
   return (
     <div id="title">
-      
       <h2 id="mainTilte">
-        <img id="titleImg" src="https://media.tenor.com/sT8RH0Dui9YAAAAd/teen-titans-go-pyramid-mummy-money.gif" alt="titleImg"></img>  
-        
-        <br/>
-        
-        Let's get started with the MasterPlan 
-        </h2>
+        <img
+          id="titleImg"
+          src="https://media.tenor.com/sT8RH0Dui9YAAAAd/teen-titans-go-pyramid-mummy-money.gif"
+          alt="titleImg"
+        ></img>
+        <br />
+        Let's get started with the MasterPlan
+      </h2>
 
-      <Expenses item = {expenseArray} />
+      <Expenses item={expenseArray} />
     </div>
   );
 }
