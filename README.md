@@ -1,1 +1,1 @@
-# Simpple React app to work with
+# Simple React app to work with
