@@ -1,1 +1,1 @@
-# Simpple E-commmerce app to work with
+# Simple E-commmerce app to work with
