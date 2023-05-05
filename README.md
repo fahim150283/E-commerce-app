@@ -1,1 +1,1 @@
-# Simpple E-commmerce app to work with
+# Simpple React app to work with
